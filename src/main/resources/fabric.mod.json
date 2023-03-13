@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabricdiscordintegration",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fabric Discord Integration",
+  "description": "A Minecraft Fabric mod bridging the server chat to Discord",
   "authors": [
-    "Me!"
+    "SLH335"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://hafemann.xyz/",
+    "sources": "https://github.com/SLH335/fabric-discord-integration"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/fabricdiscordintegration/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "xyz.hafemann.fabricdiscordintegration.FabricDiscordIntegration"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fabricdiscordintegration.mixins.json"
   ],
 
   "depends": {
